@@ -1,0 +1,12 @@
+.alert {
+    display: flex;
+}
+.alert_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.alert-text {
+    width: 95%;
+    text-align: center;
+}
