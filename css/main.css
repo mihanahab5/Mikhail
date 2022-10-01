@@ -1,0 +1,13 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@700&family=Raleway:wght@400;600;700&display=swap');
+
+
+/* Main Styles */
+body, html {
+    font-family: 'Inter', sans-serif;
+}
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
