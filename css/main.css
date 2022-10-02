@@ -1,39 +1,38 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@700&family=Raleway:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 /* Import styles */
 @import url('./header.css');
 
 /* Main Styles */
-body, html {
+body, html{
     font-family: 'Inter', sans-serif;
     background: #0A0C0F;
     color: #fff;
     font-weight: medium;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* Container */
-.container {
+.container{
     max-width: 1180px;
     margin: 0 auto;
     padding: 0 5px;
 }
 
 /* Second button */
-.second_btn {
+.second_btn{
     display: inline-block;
     color: #939495;
     text-decoration: none;
     font-weight: 600;
     transition: all .1s linear;
 }
-
-.second_btn:hover {
-    color: #b8b9b9
+.second_btn:hover{
+    color: #b8b9b9;
 }
