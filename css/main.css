@@ -19,13 +19,14 @@ body, html {
 }
 
 /* Container */
-.container{
-    max-width: 1180;
+.container {
+    max-width: 1180px;
     margin: 0 auto;
+    padding: 0 5px;
 }
 
 /* Second button */
-.second_btn{
+.second_btn {
     display: inline-block;
     color: #939495;
     text-decoration: none;
